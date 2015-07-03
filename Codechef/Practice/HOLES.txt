@@ -1,0 +1,24 @@
+t=gets.to_i
+for i in 1..t
+	s=gets
+	res=0
+	s.each_char do |i|
+		case i
+		when 'A'
+			res+=1
+		when 'D'
+			res+=1
+		when 'O'
+			res+=1
+		when 'P'
+			res+=1
+		when 'Q'
+			res+=1
+		when 'R'
+			res+=1
+		when 'B'
+			res+=2
+		end
+	end
+	puts "#{res}"
+end
