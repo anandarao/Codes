@@ -1,0 +1,79 @@
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    E. Restore
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>0.25 seconds
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>64 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>Given a matrix <span class="tex-span"><i>A</i></span> of size <span class="tex-span"><i>N</i>?*?<i>N</i></span>. The rows are numbered from 0 to <span class="tex-span"><i>N</i></span>-1, the columns are numbered from 0 to <span class="tex-span"><i>N</i></span>-1. In this matrix, the sums of each row, the sums of each column, and the sum of the two diagonals are equal.</p>
+   <p>For example, a matrix with <span class="tex-span"><i>N</i>?=?3</span>:</p>
+   <p><img align="middle" class="tex-formula" src="http://codeforces.com/predownloaded/4d/f3/4df3239845036a500af42b6e18bd0edc72e6ff1a.png"></p>
+   <p>The sums of each row:</p>
+   <p><span class="tex-span">2?+?9?+?4?=?15</span></p>
+   <p><span class="tex-span">7?+?5?+?3?=?15</span></p>
+   <p><span class="tex-span">6?+?1?+?8?=?15</span></p>
+   <p>The sums of each column:</p>
+   <p><span class="tex-span">2?+?7?+?6?=?15</span></p>
+   <p><span class="tex-span">9?+?5?+?1?=?15</span></p>
+   <p><span class="tex-span">4?+?3?+?8?=?15</span></p>
+   <p>The sums of each diagonal:</p>
+   <p><span class="tex-span">2?+?5?+?8?=?15</span></p>
+   <p><span class="tex-span">4?+?5?+?6?=?15</span></p>
+   <p>As you can notice, all sums are equal to 15.</p>
+   <p>However, all the numbers in the main diagonal (the main diagonal consists of cells <span class="tex-span">(<i>i</i>,?<i>i</i>)</span>) have been removed. Your task is to recover these cells.</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The first line contains the dimension of the matrix, <span class="tex-span"><i>n</i></span> (<span class="tex-span">1???<i>n</i>???100</span>).</p>
+   <p>The following <span class="tex-span"><i>n</i></span> lines contain <span class="tex-span"><i>n</i></span> integers each, with removed numbers denoted by 0, and all other numbers <span class="tex-span">?-?10<sup class="upper-index">12</sup>???<i>A</i><sub class="lower-index"><i>ij</i></sub>???10<sup class="upper-index">12</sup></span>.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>The restored matrix should be outputted in a similar format, with <span class="tex-span"><i>n</i></span> lines consisting of <span class="tex-span"><i>n</i></span> integers each.</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Sample test(s)
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>3<br>0 9 4<br>7 0 3<br>6 1 0<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>2 9 4 <br>7 5 3 <br>6 1 8 <br></pre>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
