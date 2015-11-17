@@ -4,10 +4,7 @@ All my accepted codes are uploaded here for reference.
 
 User handles :
 
-Codechef : anand16
-
-Codeforces : anand16
-
-Spoj : anand16
-
-Hackerrank : anand16
+1. Codechef : anand16
+2. Codeforces : anand16
+3. Spoj : anand16
+4. Hackerrank : anand16
