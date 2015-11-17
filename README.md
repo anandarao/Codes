@@ -1,4 +1,4 @@
-# My_codes
+# Codes
 
 All my accepted codes are uploaded here for reference. 
 
